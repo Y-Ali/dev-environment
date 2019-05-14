@@ -11,7 +11,6 @@ There is one main folder - The DevEnvironemnts folder which contains:
 - Virtual box
 - Terminal
 - Atom
-
 ### Getting Started
 1. Open terminal and using `cd` navigate to the location of the folder DevEnvironemnts.
 2. type `vagrant up`. This will download ubuntu/xenial64 (specified in VagrantFile). if you open the VagrantFile you should see this:
