@@ -24,7 +24,7 @@ There is one main folder - The DevEnvironemnts folder which contains:
  - if you cannot access this, type `sudo systemctm restart nginx` in your terminal and then start up the vm again.
 
 - If nothing is working, you will need to install some packages.
-  - first navigate to environments folder using cd environments (via DevEnvironmets).
+  - first navigate to environments folder using `cd environments` (via DevEnvironmets).
   - type in `cd spec-tests` then type `rake spec`. this will display all the packages that need to be installed.
   - `cd ..` takes you back to DevEnvironmets folder. type in `vagrant destroy` to destroy any existing vm's.
   - type `vagrant up`. this runs the vm and installs packages using code from provision.sh
