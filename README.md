@@ -1,18 +1,18 @@
-#DevEnvironments using Vagrant
+# DevEnvironments using Vagrant
 Vagrant is a toll for building development environments.
 
-###Folders to look at:
+### Folders to look at:
 There is one main folder - The DevEnvironemnts folder which contains:
 - environment (folder)
 - app (folder)
 - Vagrantfile (file)
 
-###Tools needed
+### Tools needed
 - Virtual box
 - Terminal
 - Atom
 
-###Getting Started
+### Getting Started
 1. Open terminal and using `cd` navigate to the location of the folder DevEnvironemnts.
 2. type `vagrant up`. This will download ubuntu/xenial64 (specified in VagrantFile). if you open the VagrantFile you should see this:
 `Vagrant.configure("2") do |config|
