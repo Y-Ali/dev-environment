@@ -1,4 +1,4 @@
-##DevEnvironments using Vagrant
+#DevEnvironments using Vagrant
 Vagrant is a toll for building development environments.
 
 ###Folders to look at:
