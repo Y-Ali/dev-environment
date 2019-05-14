@@ -21,7 +21,7 @@ There is one main folder - The DevEnvironemnts folder which contains:
 3. Type `vagrant ssh`. This command will connect you to the VM using SSH.
 4. If you open the VirtualBox application you will see the VM running.
 5. Type in `192.168.10.100` to see the machine via your browser.
- - if you cannot access this, type `sudo systemctm restart nginx` in your terminal and then start up the vm again.
+ - if you cannot access this, type `sudo systemctl restart nginx` in your terminal and then start up the vm again.
 
 - If nothing is working, you will need to install some packages.
   - first navigate to environments folder using `cd environments` (via DevEnvironmets).
